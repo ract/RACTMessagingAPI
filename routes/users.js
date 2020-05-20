@@ -13,7 +13,7 @@ const sendMessage = (phone, content) => {
   lib.Configuration.hmacAuthPassword = "YOUR_HMAC_SECRET_KEY";
   */
 
-  var controller = lib.MessagesController;
+  let controller = lib.MessagesController;
 
   let body = new lib.SendMessagesRequest();
 
